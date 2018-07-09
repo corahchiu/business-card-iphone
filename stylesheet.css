@@ -1,0 +1,38 @@
+html, body {
+    background-color: black;
+    /* font-family: Arial, Gadget, sans-serif !important; */
+}
+
+.front, .back {
+    top: 0; bottom: 0; left: 0; right: 0;
+	color: black;
+	text-align: center;
+	/* backface-visibility: hidden; */
+	/* -webkit-backface-visibility: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    padding: 10px;
+}
+
+.front {
+    z-index: 2;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    background: #fdd236;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+}
+
+a {
+    text-decoration:none;
+    color: black;
+    font-size: 1em;
+}
+
+.bottom {
+    background-color: white;
+    text-decoration: underline;
+}
